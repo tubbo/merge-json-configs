@@ -8,6 +8,9 @@ on:
       - .yarn/cache
       - .yarnrc
       - yarn.lock
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   packages:
     runs-on: ubuntu-latest
