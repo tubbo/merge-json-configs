@@ -25,6 +25,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "semantic-release": "^19.0.3",
+    "typedoc": "^0.23.5",
     "typescript": "^4.7.4"
   },
   "type": "module",
@@ -42,8 +43,8 @@
   "bin": "./dist/cli.js",
   "scripts": {
     "prepare": "husky install",
-    "build": "tsc",
-    "types": "tsc --noEmit",
+    "build": "typedoc --emit both",
+    "types": "typedoc --emit none",
     "test": "node --experimental-vm-modules $(yarn bin jest)",
     "lint": "eslint .",
     "style": "prettier --check .",
