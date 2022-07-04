@@ -8,7 +8,3 @@ Array [
   "dist/**/*",
 ]
 `;
-
-exports[`readJsonFile 1`] = `[Function]`;
-
-exports[`readJsonFile 2`] = `"ENOENT: no such file or directory, open '/Users/tscott/Code/merge-json-configs/bogus'"`;

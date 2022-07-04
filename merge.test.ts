@@ -1,4 +1,5 @@
-import { mergeJsonConfigs, readJsonFile } from './merge'
+import { mergeJsonConfigs } from './merge'
+import { jsonc } from 'jsonc'
 
 interface TSConfig {
   compilerOptions: {
@@ -11,14 +12,9 @@ interface TSConfig {
 const ORIGINAL_FILE = '__mocks__/original.json'
 const OVERRIDES_FILE = '__mocks__/overrides.json'
 
-test('readJsonFile', () => {
-  expect(() => readJsonFile(ORIGINAL_FILE)).toMatchSnapshot()
-  expect(() => readJsonFile('bogus')).toThrowErrorMatchingSnapshot()
-})
-
-test('mergeJsonConfigs', () => {
-  const original = readJsonFile(ORIGINAL_FILE)
-  const overrides = readJsonFile(OVERRIDES_FILE)
+test('mergeJsonConfigs', async () => {
+  const original = await jsonc.read(ORIGINAL_FILE)
+  const overrides = await jsonc.read(OVERRIDES_FILE)
   const merged = mergeJsonConfigs<TSConfig>(ORIGINAL_FILE, OVERRIDES_FILE)
 
   expect(merged.compilerOptions.target).toEqual(original.compilerOptions.target)

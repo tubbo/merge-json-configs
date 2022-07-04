@@ -3,7 +3,7 @@
     "incremental": true,
     "tsBuildInfoFile": "./.tsbuildinfo",
     "target": "es2016",
-    "module": "commonjs",
+    "module": "node16",
     "moduleResolution": "node16",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,5 +15,9 @@
     "declaration": true,
     "sourceMap": true
   },
-  "exclude": ["**/*.test.*", "**/*.spec.*", "dist/**/*"]
+  "exclude": ["**/*.test.*", "**/*.spec.*", "dist/**/*"],
+  "typedocOptions": {
+    "exclude": ["**/*.test.*"],
+    "entryPoints": ["merge.ts", "cli.ts"]
+  }
 }
