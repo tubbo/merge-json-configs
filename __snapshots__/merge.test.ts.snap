@@ -8,5 +8,3 @@ Array [
   "dist/**/*",
 ]
 `;
-
-exports[`readJsonFile 1`] = `[Function]`;
