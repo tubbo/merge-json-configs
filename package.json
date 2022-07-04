@@ -1,0 +1,76 @@
+{
+  "name": "merge-json-configs",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@swc/core": "^1.2.208",
+    "@swc/jest": "^0.2.21",
+    "@types/eslint": "^8",
+    "@types/prettier": "^2",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "husky": "^8.0.1",
+    "jest": "^28.1.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "exports": {
+    "./": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "tsc",
+    "types": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint .",
+    "style": "prettier --check .",
+    "fmt": "prettier --write . && eslint . --fix"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "prettier",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.test.*"
+        ],
+        "plugins": [
+          "jest"
+        ],
+        "extends": [
+          "plugin:jest/recommended"
+        ]
+      }
+    ]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": "@swc/jest"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{md,json,yml,yaml,html,htm,css,graphql,gql}": [
+      "prettier --write"
+    ]
+  }
+}
