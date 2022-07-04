@@ -38,7 +38,8 @@
     "lint": "eslint .",
     "style": "prettier --check .",
     "fmt": "prettier --write . && eslint . --fix",
-    "publish": "semantic-release"
+    "publish": "semantic-release",
+    "clean": "rm -rf dist"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
