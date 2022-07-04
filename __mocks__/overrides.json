@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": ["**/*.test.*", "**/*.spec.*", "dist/**/*"]
+}

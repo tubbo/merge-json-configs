@@ -5,6 +5,8 @@
     "@swc/core": "^1.2.208",
     "@swc/jest": "^0.2.21",
     "@types/eslint": "^8",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
     "@types/prettier": "^2",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
@@ -17,16 +19,17 @@
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
+  "type": "module",
   "exports": {
-    "./": "./dist/index.js",
+    "./": "./dist/merge.js",
     "./*": "./dist/*.js"
   },
-  "types": "./dist/index.d.ts",
+  "types": "./dist/merge.d.ts",
   "scripts": {
     "prepare": "husky install",
     "build": "tsc",
     "types": "tsc --noEmit",
-    "test": "jest",
+    "test": "node --experimental-vm-modules $(yarn bin jest)",
     "lint": "eslint .",
     "style": "prettier --check .",
     "fmt": "prettier --write . && eslint . --fix"
@@ -58,7 +61,10 @@
   "jest": {
     "transform": {
       "^.+\\.(t|j)sx?$": "@swc/jest"
-    }
+    },
+    "extensionsToTreatAsEsm": [
+      ".ts"
+    ]
   },
   "prettier": {
     "semi": false,
@@ -72,5 +78,9 @@
     "*.{md,json,yml,yaml,html,htm,css,graphql,gql}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "strip-json-comments": "^4.0.0"
   }
 }

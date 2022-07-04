@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mergeJsonConfigs 1`] = `
+Array [
+  "generated.ts",
+  "**/*.test.*",
+  "**/*.spec.*",
+  "dist/**/*",
+]
+`;
+
+exports[`readJsonFile 1`] = `[Function]`;
+
+exports[`readJsonFile 2`] = `"ENOENT: no such file or directory, open '/Users/tscott/Code/merge-json-configs/bogus'"`;

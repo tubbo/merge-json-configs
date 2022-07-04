@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -12,5 +13,5 @@
     "declaration": true,
     "sourceMap": true
   },
-  "excludes": ["**/*.test.*", "**/*.spec.*", "dist/**/*"]
+  "exclude": ["**/*.test.*", "**/*.spec.*", "dist/**/*"]
 }
