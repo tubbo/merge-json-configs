@@ -4,6 +4,10 @@ on:
     types:
       - opened
       - synchronize
+    paths-ignore:
+      - .yarn/cache
+      - .yarnrc
+      - yarn.lock
 jobs:
   packages:
     runs-on: ubuntu-latest
