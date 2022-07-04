@@ -13,7 +13,9 @@ const OVERRIDES_FILE = '__mocks__/overrides.json'
 
 test('readJsonFile', () => {
   expect(() => readJsonFile(ORIGINAL_FILE)).toMatchSnapshot()
-  expect(() => readJsonFile('bogus')).toThrowErrorMatchingSnapshot()
+  expect(() => readJsonFile('bogus')).toThrowError(
+    /ENOENT: no such file or directory/
+  )
 })
 
 test('mergeJsonConfigs', () => {
