@@ -1,0 +1,11 @@
+name: Security
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+jobs:
+  packages:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'No package check needed'
