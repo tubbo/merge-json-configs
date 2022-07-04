@@ -26,10 +26,16 @@
   "type": "module",
   "repository": "https://github.com/tubbo/merge-json-configs.git",
   "exports": {
-    "./": "./dist/merge.js",
-    "./*": "./dist/*.js"
+    "./": {
+      "types": "./dist/merge.d.ts",
+      "import": "./dist/merge.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    }
   },
-  "types": "./dist/merge.d.ts",
+  "bin": "./dist/cli.js",
   "scripts": {
     "prepare": "husky install",
     "build": "tsc",
