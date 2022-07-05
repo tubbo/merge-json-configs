@@ -142,7 +142,6 @@
         "@semantic-release/git",
         {
           "assets": [
-            "pkg/*",
             "CHANGELOG.md",
             "package.json"
           ],
