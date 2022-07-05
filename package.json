@@ -44,6 +44,9 @@
       "import": "./dist/*.js"
     }
   },
+  "files": [
+    "dist/**/*"
+  ],
   "bin": "./dist/cli.js",
   "scripts": {
     "prepare": "husky install",
