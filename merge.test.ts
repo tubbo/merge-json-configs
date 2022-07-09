@@ -21,5 +21,5 @@ test('mergeJsonConfigs', async () => {
   expect(merged.compilerOptions.baseUrl).toEqual(
     overrides.compilerOptions.baseUrl
   )
-  expect(merged.exclude).toMatchSnapshot()
+  expect(merged).toMatchSnapshot()
 })

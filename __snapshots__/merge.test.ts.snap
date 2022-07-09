@@ -1,10 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`mergeJsonConfigs 1`] = `
-Array [
-  "generated.ts",
-  "**/*.test.*",
-  "**/*.spec.*",
-  "dist/**/*",
-]
+Object {
+  "compilerOptions": Object {
+    "baseUrl": "./",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2016",
+  },
+  "exclude": Array [
+    "generated.ts",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "dist/**/*",
+  ],
+}
 `;
