@@ -9,5 +9,13 @@ import { jsonc } from 'jsonc'
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function mergeJsonConfigs<T = any>(...files: string[]) {
-  return deepMerge.all<T>(files.map((file) => jsonc.readSync(file)))
+  return deepMerge.all<T>(
+    files.map((file) => {
+      try {
+        return jsonc.readSync(file)
+      } catch (_) {
+        return {}
+      }
+    })
+  )
 }
