@@ -37,6 +37,8 @@
   },
   "type": "module",
   "repository": "https://github.com/tubbo/merge-json-configs.git",
+  "bugs": "https://github.com/tubbo/merge-json-configs/issues",
+  "homepage": "https://tubbo.github.io/merge-json-configs",
   "exports": {
     "./": {
       "types": "./dist/merge.d.ts",
