@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/tubbo/merge-json-configs/compare/v1.0.1...v1.0.2) (2022-07-09)
+
+### Bug Fixes
+
+- ignore errors when parsing jsonc ([66665cf](https://github.com/tubbo/merge-json-configs/commit/66665cffb4a6376fd5e5b263e117674cdda543c1))
+
 ## [1.0.1](https://github.com/tubbo/merge-json-configs/compare/v1.0.0...v1.0.1) (2022-07-05)
 
 ### Performance Improvements
