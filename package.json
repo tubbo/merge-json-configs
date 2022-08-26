@@ -33,7 +33,7 @@
     "prettier": "2.7.1",
     "semantic-release": "19.0.5",
     "typedoc": "0.23.10",
-    "typescript": "4.7.4"
+    "typescript": "4.8.2"
   },
   "type": "module",
   "repository": "https://github.com/tubbo/merge-json-configs.git",
