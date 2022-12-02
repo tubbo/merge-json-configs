@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:7.18.6"],\
             ["@commitlint/cli", "npm:17.3.0"],\
             ["@commitlint/config-conventional", "npm:17.3.0"],\
-            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.1"],\
+            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.2"],\
             ["@semantic-release/git", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:10.0.1"],\
             ["@types/babel__core", "npm:7.1.20"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
@@ -4254,21 +4254,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@semantic-release/changelog", [\
-        ["npm:6.0.1", {\
-          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.1-8829cd6462-a7c999f202.zip/node_modules/@semantic-release/changelog/",\
+        ["npm:6.0.2", {\
+          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.2-63a61e6d7f-e116a1ac25.zip/node_modules/@semantic-release/changelog/",\
           "packageDependencies": [\
-            ["@semantic-release/changelog", "npm:6.0.1"]\
+            ["@semantic-release/changelog", "npm:6.0.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/@semantic-release-changelog-virtual-348cfc2b16/0/cache/@semantic-release-changelog-npm-6.0.1-8829cd6462-a7c999f202.zip/node_modules/@semantic-release/changelog/",\
+        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/@semantic-release-changelog-virtual-1036ac648f/0/cache/@semantic-release-changelog-npm-6.0.2-63a61e6d7f-e116a1ac25.zip/node_modules/@semantic-release/changelog/",\
           "packageDependencies": [\
-            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.1"],\
+            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.2"],\
             ["@semantic-release/error", "npm:3.0.0"],\
             ["@types/semantic-release", null],\
             ["aggregate-error", "npm:3.1.0"],\
-            ["fs-extra", "npm:9.1.0"],\
+            ["fs-extra", "npm:11.1.0"],\
             ["lodash", "npm:4.17.21"],\
             ["semantic-release", "npm:19.0.5"]\
           ],\
@@ -5392,15 +5392,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/astral-regex-npm-2.0.0-f30d866aab-876231688c.zip/node_modules/astral-regex/",\
           "packageDependencies": [\
             ["astral-regex", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["at-least-node", [\
-        ["npm:1.0.0", {\
-          "packageLocation": "./.yarn/cache/at-least-node-npm-1.0.0-2b36e661fa-463e2f8e43.zip/node_modules/at-least-node/",\
-          "packageDependencies": [\
-            ["at-least-node", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7251,11 +7242,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:9.1.0", {\
-          "packageLocation": "./.yarn/cache/fs-extra-npm-9.1.0-983c2ddb4c-ba71ba32e0.zip/node_modules/fs-extra/",\
+        ["npm:11.1.0", {\
+          "packageLocation": "./.yarn/cache/fs-extra-npm-11.1.0-2cd157426f-5ca476103f.zip/node_modules/fs-extra/",\
           "packageDependencies": [\
-            ["fs-extra", "npm:9.1.0"],\
-            ["at-least-node", "npm:1.0.0"],\
+            ["fs-extra", "npm:11.1.0"],\
             ["graceful-fs", "npm:4.2.10"],\
             ["jsonfile", "npm:6.1.0"],\
             ["universalify", "npm:2.0.0"]\
@@ -9427,7 +9417,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:7.18.6"],\
             ["@commitlint/cli", "npm:17.3.0"],\
             ["@commitlint/config-conventional", "npm:17.3.0"],\
-            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.1"],\
+            ["@semantic-release/changelog", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:6.0.2"],\
             ["@semantic-release/git", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:10.0.1"],\
             ["@types/babel__core", "npm:7.1.20"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
