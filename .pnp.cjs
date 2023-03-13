@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:28.1.3"],\
             ["jsonc", "npm:2.0.0"],\
-            ["lint-staged", "npm:13.1.4"],\
+            ["lint-staged", "npm:13.2.0"],\
             ["prettier", "npm:2.8.4"],\
             ["semantic-release", "npm:19.0.5"],\
             ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.23.26"],\
@@ -6598,20 +6598,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "supports-color"\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-a33c2c21f3/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
-          "packageDependencies": [\
-            ["debug", "virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:4.3.4"],\
-            ["@types/supports-color", null],\
-            ["ms", "npm:2.1.2"],\
-            ["supports-color", "npm:9.3.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/supports-color",\
-            "supports-color"\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["debuglog", [\
@@ -9209,23 +9195,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lint-staged", [\
-        ["npm:13.1.4", {\
-          "packageLocation": "./.yarn/cache/lint-staged-npm-13.1.4-d0f46bbee3-75729290bd.zip/node_modules/lint-staged/",\
+        ["npm:13.2.0", {\
+          "packageLocation": "./.yarn/cache/lint-staged-npm-13.2.0-204330f6dc-dcaa8fbbde.zip/node_modules/lint-staged/",\
           "packageDependencies": [\
-            ["lint-staged", "npm:13.1.4"],\
+            ["lint-staged", "npm:13.2.0"],\
             ["chalk", "npm:5.2.0"],\
             ["cli-truncate", "npm:3.1.0"],\
             ["commander", "npm:10.0.0"],\
-            ["debug", "virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:4.3.4"],\
+            ["debug", "virtual:29474417206615456729b7a578bf418b358d5457cdcef4bbfee11068b4718e28ceca45b525022e3820e15bd79419301ec7f358c2f28eae1e78ba4bae24d15383#npm:4.3.4"],\
             ["execa", "npm:7.0.0"],\
             ["lilconfig", "npm:2.1.0"],\
-            ["listr2", "virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:5.0.7"],\
+            ["listr2", "virtual:204330f6dc3d5ec489c9948d8996006dd25a31b13fd5a304781ba35ede320db06541222777ff27053cf0017a779a3081ba625ca30a782a744efce6e3a0a7cb51#npm:5.0.7"],\
             ["micromatch", "npm:4.0.5"],\
             ["normalize-path", "npm:3.0.0"],\
             ["object-inspect", "npm:1.12.3"],\
             ["pidtree", "npm:0.6.0"],\
             ["string-argv", "npm:0.3.1"],\
-            ["supports-color", "npm:9.3.1"],\
             ["yaml", "npm:2.2.1"]\
           ],\
           "linkType": "HARD"\
@@ -9239,10 +9224,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:5.0.7", {\
-          "packageLocation": "./.yarn/__virtual__/listr2-virtual-002d90406e/0/cache/listr2-npm-5.0.7-f7d9c71212-5c2cb6ba3f.zip/node_modules/listr2/",\
+        ["virtual:204330f6dc3d5ec489c9948d8996006dd25a31b13fd5a304781ba35ede320db06541222777ff27053cf0017a779a3081ba625ca30a782a744efce6e3a0a7cb51#npm:5.0.7", {\
+          "packageLocation": "./.yarn/__virtual__/listr2-virtual-df4fad7431/0/cache/listr2-npm-5.0.7-f7d9c71212-5c2cb6ba3f.zip/node_modules/listr2/",\
           "packageDependencies": [\
-            ["listr2", "virtual:d0f46bbee354b3b2fde8a89a6bb432ba70ff558a4ae07fd1750b01c8445ca4333318b1159b147ac2f6e9d88948c072379fd25419483dac0b50cf311835b6f92b#npm:5.0.7"],\
+            ["listr2", "virtual:204330f6dc3d5ec489c9948d8996006dd25a31b13fd5a304781ba35ede320db06541222777ff27053cf0017a779a3081ba625ca30a782a744efce6e3a0a7cb51#npm:5.0.7"],\
             ["@types/enquirer", null],\
             ["cli-truncate", "npm:2.1.0"],\
             ["colorette", "npm:2.0.19"],\
@@ -9664,7 +9649,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:28.1.3"],\
             ["jsonc", "npm:2.0.0"],\
-            ["lint-staged", "npm:13.1.4"],\
+            ["lint-staged", "npm:13.2.0"],\
             ["prettier", "npm:2.8.4"],\
             ["semantic-release", "npm:19.0.5"],\
             ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.23.26"],\
@@ -11859,13 +11844,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-color-npm-9.2.2-d003069e84-976d848774.zip/node_modules/supports-color/",\
           "packageDependencies": [\
             ["supports-color", "npm:9.2.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:9.3.1", {\
-          "packageLocation": "./.yarn/cache/supports-color-npm-9.3.1-08866b3304-00c4d1082a.zip/node_modules/supports-color/",\
-          "packageDependencies": [\
-            ["supports-color", "npm:9.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
