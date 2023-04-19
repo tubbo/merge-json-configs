@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.2.1"],\
             ["prettier", "npm:2.8.7"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.1"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -9546,10 +9546,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.2.12", {\
-          "packageLocation": "./.yarn/cache/marked-npm-4.2.12-59aaa5afdc-bd551cd610.zip/node_modules/marked/",\
+        ["npm:4.3.0", {\
+          "packageLocation": "./.yarn/cache/marked-npm-4.3.0-e7ef9e874f-0db6817893.zip/node_modules/marked/",\
           "packageDependencies": [\
-            ["marked", "npm:4.2.12"]\
+            ["marked", "npm:4.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9634,7 +9634,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.2.1"],\
             ["prettier", "npm:2.8.7"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.1"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
           "linkType": "SOFT"\
@@ -9720,10 +9720,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.4.2", {\
-          "packageLocation": "./.yarn/cache/minimatch-npm-7.4.2-da654284bf-9e341b04e6.zip/node_modules/minimatch/",\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-9.0.0-c6737cb1be-7bd57899ed.zip/node_modules/minimatch/",\
           "packageDependencies": [\
-            ["minimatch", "npm:7.4.2"],\
+            ["minimatch", "npm:9.0.0"],\
             ["brace-expansion", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -12219,21 +12219,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typedoc", [\
-        ["npm:0.24.1", {\
-          "packageLocation": "./.yarn/cache/typedoc-npm-0.24.1-2a0ab1f984-49ecc56060.zip/node_modules/typedoc/",\
+        ["npm:0.24.2", {\
+          "packageLocation": "./.yarn/cache/typedoc-npm-0.24.2-14ea9e497a-ada472d51d.zip/node_modules/typedoc/",\
           "packageDependencies": [\
-            ["typedoc", "npm:0.24.1"]\
+            ["typedoc", "npm:0.24.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.1", {\
-          "packageLocation": "./.yarn/__virtual__/typedoc-virtual-04f68293f3/0/cache/typedoc-npm-0.24.1-2a0ab1f984-49ecc56060.zip/node_modules/typedoc/",\
+        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.2", {\
+          "packageLocation": "./.yarn/__virtual__/typedoc-virtual-7e994c2a38/0/cache/typedoc-npm-0.24.2-14ea9e497a-ada472d51d.zip/node_modules/typedoc/",\
           "packageDependencies": [\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.1"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.24.2"],\
             ["@types/typescript", null],\
             ["lunr", "npm:2.3.9"],\
-            ["marked", "npm:4.2.12"],\
-            ["minimatch", "npm:7.4.2"],\
+            ["marked", "npm:4.3.0"],\
+            ["minimatch", "npm:9.0.0"],\
             ["shiki", "npm:0.14.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"]\
           ],\
