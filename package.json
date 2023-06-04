@@ -1,7 +1,7 @@
 {
   "name": "merge-json-configs",
   "version": "1.0.2",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "dependencies": {
     "deepmerge": "^4.2.2",
     "jsonc": "^2.0.0"
