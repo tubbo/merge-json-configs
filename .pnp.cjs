@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:5.62.0"],\
             ["babel-jest", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:28.1.3"],\
-            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
+            ["conventional-changelog-conventionalcommits", "npm:7.0.2"],\
             ["deepmerge", "npm:4.2.2"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-prettier", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:8.10.0"],\
@@ -6549,20 +6549,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["conventional-changelog-conventionalcommits", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-5.0.0-a270202fe8-b67d12e4e0.zip/node_modules/conventional-changelog-conventionalcommits/",\
-          "packageDependencies": [\
-            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
-            ["compare-func", "npm:2.0.0"],\
-            ["lodash", "npm:4.17.21"],\
-            ["q", "npm:1.5.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.1.0", {\
           "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-6.1.0-10dd027396-4383a35cdf.zip/node_modules/conventional-changelog-conventionalcommits/",\
           "packageDependencies": [\
             ["conventional-changelog-conventionalcommits", "npm:6.1.0"],\
+            ["compare-func", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.0.2", {\
+          "packageLocation": "./.yarn/cache/conventional-changelog-conventionalcommits-npm-7.0.2-f878f86efe-e17ac5970a.zip/node_modules/conventional-changelog-conventionalcommits/",\
+          "packageDependencies": [\
+            ["conventional-changelog-conventionalcommits", "npm:7.0.2"],\
             ["compare-func", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -9847,7 +9845,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:5.62.0"],\
             ["babel-jest", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:28.1.3"],\
-            ["conventional-changelog-conventionalcommits", "npm:5.0.0"],\
+            ["conventional-changelog-conventionalcommits", "npm:7.0.2"],\
             ["deepmerge", "npm:4.2.2"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-prettier", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:8.10.0"],\
