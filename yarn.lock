@@ -3202,19 +3202,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.123":
-  version: 18.19.123
-  resolution: "@types/node@npm:18.19.123"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: a450556143df831703fc20a96a1eff485fa425e5a6e887331991d3e00ab2d33981d36e94d4320f4961e96d22c488ced740913fed6de161daea5caf39722c5f49
-  languageName: node
-  linkType: hard
-
 "@types/node@npm:20.5.1":
   version: 20.5.1
   resolution: "@types/node@npm:20.5.1"
   checksum: 3dbe611cd67afa987102c8558ee70f848949c5dcfee5f60abc073e55c0d7b048e391bf06bb1e0dc052cb7210ca97136ac496cbaf6e89123c989de6bd125fde82
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:22.18.0":
+  version: 22.18.0
+  resolution: "@types/node@npm:22.18.0"
+  dependencies:
+    undici-types: ~6.21.0
+  checksum: a110b66f079ea882be1e300e72978cd3a5e7be8217b362b72152e09f64087731a235a0557fca72d621912a8ba1347d9ba49468c35755dd2581edb7f3f6e016e2
   languageName: node
   linkType: hard
 
@@ -7298,7 +7298,7 @@ __metadata:
     "@types/babel__preset-env": 7.10.0
     "@types/eslint": 8.56.12
     "@types/jest": 28.1.8
-    "@types/node": 18.19.123
+    "@types/node": 22.18.0
     "@types/prettier": 2.7.3
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
@@ -9695,10 +9695,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 46331c7d6016bf85b3e8f20c159d62f5ae471aba1eb3dc52fff35a0259d58dcc7d592d4cc4f00c5f9243fa738a11cfa48bd20203040d4a9e6bc25e807fab7ab3
   languageName: node
   linkType: hard
 
