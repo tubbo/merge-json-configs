@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.3.0"],\
             ["prettier", "npm:2.8.8"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.19"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.20"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
@@ -9360,10 +9360,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["linkify-it", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/linkify-it-npm-5.0.0-adb5f9c96f-b0b86cadaf.zip/node_modules/linkify-it/",\
+        ["npm:5.0.2", {\
+          "packageLocation": "./.yarn/cache/linkify-it-npm-5.0.2-091da7d025-3ac965e7df.zip/node_modules/linkify-it/",\
           "packageDependencies": [\
-            ["linkify-it", "npm:5.0.0"],\
+            ["linkify-it", "npm:5.0.2"],\
             ["uc.micro", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
@@ -9728,13 +9728,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["markdown-it", [\
-        ["npm:14.1.1", {\
-          "packageLocation": "./.yarn/cache/markdown-it-npm-14.1.1-45c173274d-d6d55865c6.zip/node_modules/markdown-it/",\
+        ["npm:14.3.0", {\
+          "packageLocation": "./.yarn/cache/markdown-it-npm-14.3.0-70925f0498-738b14c8e3.zip/node_modules/markdown-it/",\
           "packageDependencies": [\
-            ["markdown-it", "npm:14.1.1"],\
+            ["markdown-it", "npm:14.3.0"],\
             ["argparse", "npm:2.0.1"],\
             ["entities", "npm:4.5.0"],\
-            ["linkify-it", "npm:5.0.0"],\
+            ["linkify-it", "npm:5.0.2"],\
             ["mdurl", "npm:2.0.0"],\
             ["punycode.js", "npm:2.3.1"],\
             ["uc.micro", "npm:2.1.0"]\
@@ -9840,7 +9840,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.3.0"],\
             ["prettier", "npm:2.8.8"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.19"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.20"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "linkType": "SOFT"\
@@ -12395,21 +12395,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typedoc", [\
-        ["npm:0.28.19", {\
-          "packageLocation": "./.yarn/cache/typedoc-npm-0.28.19-d7fd22c3f7-2c5f853456.zip/node_modules/typedoc/",\
+        ["npm:0.28.20", {\
+          "packageLocation": "./.yarn/cache/typedoc-npm-0.28.20-92d0a89709-d9f6b5d042.zip/node_modules/typedoc/",\
           "packageDependencies": [\
-            ["typedoc", "npm:0.28.19"]\
+            ["typedoc", "npm:0.28.20"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.19", {\
-          "packageLocation": "./.yarn/__virtual__/typedoc-virtual-644d95ddc1/0/cache/typedoc-npm-0.28.19-d7fd22c3f7-2c5f853456.zip/node_modules/typedoc/",\
+        ["virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.20", {\
+          "packageLocation": "./.yarn/__virtual__/typedoc-virtual-870113421c/0/cache/typedoc-npm-0.28.20-92d0a89709-d9f6b5d042.zip/node_modules/typedoc/",\
           "packageDependencies": [\
-            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.19"],\
+            ["typedoc", "virtual:c9dcdeb8a1ff1158fdbb4fec9dad08296281afbd9b598ce149d1600cef942636a57c47b5bf4cf2cea8c53a8b5814c6fabab6a8e0544cc67ce7ba4326913052e5#npm:0.28.20"],\
             ["@gerrit0/mini-shiki", "npm:3.23.0"],\
             ["@types/typescript", null],\
             ["lunr", "npm:2.3.9"],\
-            ["markdown-it", "npm:14.1.1"],\
+            ["markdown-it", "npm:14.3.0"],\
             ["minimatch", "npm:10.2.5"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
             ["yaml", "npm:2.9.0"]\
